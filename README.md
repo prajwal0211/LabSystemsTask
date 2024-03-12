@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Document Editor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple web-based document editor application built with React.js.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The Document Editor allows users to create, edit, and download documents. It provides functionalities to customize document properties such as title, author, category, and access permission. Users can also format text content using a rich text editor.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Create and edit documents
+- Customize document properties (Title, Author, Category, Access Permission)
+- Format text content (Bold, Italic, Underline)
+- Download documents as text files
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup Instructions
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js installed on your machine
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    git clone https://github.com/yourusername/document-editor.git
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Replace `yourusername` with your GitHub username.
 
-### `npm run eject`
+2. Navigate to the project directory:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```bash
+    cd document-editor
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```bash
+    npm install
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Usage
 
-## Learn More
+1. Start the application:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```bash
+    npm start
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Open your web browser and go to `http://localhost:3000` to view the Document Editor.
 
-### Code Splitting
+3. Fill in the document information (Title, Author, Category, Access Permission).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Use the text editor to write or edit the document content.
 
-### Analyzing the Bundle Size
+5. Customize properties by toggling checkboxes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+6. Click on the "Download Report" button to generate and download the report with the selected properties and document content.
 
-### Making a Progressive Web App
+### Customization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Modify components, styles, or functionality according to your requirements.
+- Integrate additional features or libraries by installing them via npm and then importing them into your project.
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Build the project using:
 
-### `npm run build` fails to minify
+    ```bash
+    npm run build
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Deploy the generated build files to your hosting provider.
+
+### Project Structure
+
+- **src**: Contains the source code of the application.
+  - **components**: Contains React components used in the application.
+  - **textEditor.js**: Contains the TextEditor component for editing document content.
+  - **App.js**: Main component of the application.
+- **public**: Contains public assets like HTML files and images.
+- **package.json**: Contains project metadata and dependencies.
+- **README.md**: Contains project documentation and instructions.
+
+## Conclusion
+
+The Document Editor is a flexible and customizable tool for creating and managing documents. If you encounter any issues or have any questions, feel free to reach out for assistance.
