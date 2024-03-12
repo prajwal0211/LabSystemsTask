@@ -4,12 +4,12 @@ A simple web-based document editor application built with React.js.
 
 ## Overview
 
-The Document Editor allows users to create, edit, and download documents. It provides functionalities to customize document properties such as title, author, category, and access permission. Users can also format text content using a rich text editor.
+The Document Editor allows users to create, edit, and download documents. It provides functionalities to customize document properties such as title, author, category. Users can also format text content using a rich text editor.
 
 ## Features
 
 - Create and edit documents
-- Customize document properties (Title, Author, Category, Access Permission)
+- Customize document properties (Title, Author, Category)
 - Format text content (Bold, Italic, Underline)
 - Download documents as text files
 
@@ -24,18 +24,9 @@ The Document Editor allows users to create, edit, and download documents. It pro
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/document-editor.git
+    git clone https://github.com/prajwal0211/LabSystemsTask.git
     ```
-
-    Replace `yourusername` with your GitHub username.
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd document-editor
-    ```
-
-3. Install dependencies:
+2. Install dependencies:
 
     ```bash
     npm install
@@ -51,7 +42,7 @@ The Document Editor allows users to create, edit, and download documents. It pro
 
 2. Open your web browser and go to `http://localhost:3000` to view the Document Editor.
 
-3. Fill in the document information (Title, Author, Category, Access Permission).
+3. Fill in the document information (Title, Author, Category).
 
 4. Use the text editor to write or edit the document content.
 
